@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+	border: none;
+
+
+
+
+@media screen and (min-width:1430px) {
+
+
+  body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #EAE0C8;
+  min-height: 100vh;
+margin: 0;
+font-family: 'Arial', 'Verdana', sans-serif;
+
+}
+
+
+.header {
+	background: #A9BA9D;
+	height: 3vh;
+/  display: flex;
+text-align: center
+align-items: center;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+border: 1px solid grey;
+height: 3vh;
+}
+
+.main-block {
+flex-direction: column;
+
+}
+
+.title {
+	height: 15vh;
+	width: 50%;
+border: 2px solid black;
+	margin-top: 20px;
+}
+
+
+.subtitle {
+	height: 10vh;
+	width: 30%;
+border: 1px solid black;
+	margin-top: 20px;
+
+}
+
+
+.hobbies {
+    max-width: 1250px;
+width: 1440px;
+border: 1px solid grey;
+	margin-top: 20px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.hobbi {
+	height: 300px;
+	width: 220px;
+border: 1px solid grey;
+border-radius: 10px;
+margin: 15px;
+color: white;
+}
+
+.foto {
+/background-image: url('assets/travel.png');
+background-size: contain;
+background-repeat: no-repeat;
+/background-size: cover;
+background-position: center;
+}
+
+.video {
+
+}
+
+.songs {
+
+}
+
+.fairies {
+background-image: url('assets/main/fairies.jpg');
+/background-size: contain;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.book {
+
+}
+
+.crystals {
+background-image: url('assets/main/crystals.png');
+/background-size: contain;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.master {
+
+}
+
+.footer {
+	height: 3vh;
+	background: #A9BA9D;
+	width: 100%;
+	margin-top: auto
+}
+
+}
+
+
+
+@media (width < 1430px) {
+
+   body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #EAE0C8;
+  min-height: 100vh;
+margin: 0;
+font-family: 'Arial', 'Verdana', sans-serif;
+
+}
+
+
+.header {
+	background: #A9BA9D;
+	min-height: 3vh;
+/  display: flex;
+text-align: center
+align-items: center;
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+border: 1px solid grey;
+min-height: 3vh;
+}
+
+
+.main-block {
+flex-direction: column;
+
+}
+
+.title {
+	height: 15vh;
+width: 80vw;
+border: 2px solid black;
+	margin-top: 20px;
+}
+
+
+.subtitle {
+	height: 10vh;
+width: 80vw;
+border: 1px solid black;
+	margin-top: 20px;
+
+}
+
+
+.hobbies {
+/    max-width: 1250px;
+/width: 1440px;
+border: 1px solid grey;
+	margin-top: 20px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.hobbi {
+width: 80vw;
+height: 80vh;
+border: 1px solid grey;
+border-radius: 10px;
+margin: 15px;
+color: white;
+/            width: 80vw;
+/           height: 0;
+/            padding-top: 52%;
+
+
+}
+
+.foto {
+/background-image: url('assets/travel.png');
+background-size: contain;
+background-repeat: no-repeat;
+/background-size: cover;
+background-position: center;
+}
+
+.video {
+
+}
+
+.songs {
+
+}
+
+.fairies {
+background-image: url('assets/main/fairies.jpg');
+/background-size: contain;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.book {
+
+}
+
+.crystals {
+background-image: url('assets/main/crystals.png');
+/background-size: contain;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.master {
+
+}
+
+
+
+
+
+.footer {
+	height: 3vh;
+	background: #A9BA9D;
+	width: 100%;
+	margin-top: auto
+}
+
+}
